@@ -14,7 +14,7 @@ There are many reasons, but the most important/obvious are:
 
 Yes, and if you want to use Notepad or TextEdit or the like, you absolutely should. Whatever is most comfortable for you. In the case of vim, the positives of plaintext files also apply to the editor itself. It’s reliable, tested, lightweight and cross platform—it’s available across all operating systems including iOS and Android—and your can use the same config across all your devices. More than that though is the powerful and unrivalled editing language (described in detail in many of the links below) that strives to increase editing effects. Add to that the deep customisability and you can shape vim into a productive and personal tool. 
 
-![steep](steep.svg)
+![steep](steep.png)
 
 The elephant in the room is Vim’s famously steep learning curve. And yeah there is no getting around that. However, for the purposes of prose that curve is steep but not high, a few runs through vimtutor, the very first step on the vim highway, and reading some of the links in *general vim*, is enough to start.  Anyway, I recommend at least reading both [Coming home to vim](https://stevelosh.com/blog/2010/09/coming-home-to-vim) and [Everyone Who Tried to Convince Me to use Vim was Wrong](https://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/) before deciding in vim is for you. 
 
