@@ -122,5 +122,4 @@ If you liked this you might like these:
 
 ## contributing 
 
-Suggestions are welcome. Please create an issue. fush  
-:
+Suggestions are welcome. Please create an issue.
