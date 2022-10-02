@@ -18,7 +18,7 @@ Yes, and if you want to use Notepad or TextEdit or the like, you should. Whateve
 
 The elephant in the room is Vim’s steep learning curve. And yeah there is no getting around that. However, for the purpose of prose that curve is steep but not high, a two or three runs through vimtutor, the first step on the vim highway, and reading some of the links in *general vim*, is enough to start.  Anyway, I recommend at least reading both [Coming home to vim](https://stevelosh.com/blog/2010/09/coming-home-to-vim) and [Everyone Who Tried to Convince Me to use Vim was Wrong](https://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/) before deciding in vim is for you. 
 
-*Links marked with a :+1:  are recommended*
+*Links marked with a :+1:  are recommended. links marked with :eyes: are new (since last commit)*
 
 [^1]: Should the world survive that long. And if not, at least the cockroaches will have something to read on their iPads post-apocalypse
 
@@ -60,6 +60,7 @@ set nolist
 nnoremap j gj
 nnoremap k gk
 ```
+
 These first four options will set up backspacing and word wrapping to work as you would expect. The last two make `j` and `k` move over visual lines—trust me, you’ll want this. 
 
 [^2]: and some options you'll never need to.
@@ -68,10 +69,10 @@ These first four options will set up backspacing and word wrapping to work as yo
 
 While not essential, when writing in plaintext you may want to markup your er... text to indicate emphasis and the like. You’ve heard of Markdown but there’s a number of light markup languages to choose from: 
 
-- Markdown. There are so many flavours of Markdown. To avoid confusion I suggest just using [commonmark](https://commonmark.org/). 
-- AsciiDoc is both older and a bit more complex than Markdown. It does have some nice features of its own. [Read more](https://asciidoc.org/).
-- Fountain is a markup language for writing screenplays. [Read more ](https://fountain.io/).
-- Djot is a new attempt at refining Markdown. Read about it and why it exists [here](https://djot.net/)
+- [commonmark](https://commonmark.org/). There are so many flavours of Markdown. To avoid confusion I suggest just using this.
+- [AsciiDoc](https://asciidoc.org/) is both older and a bit more complex than Markdown. It does have some nice features of its own.
+- [Fountain](https://fountain.io/) is a markup language for writing screenplays.
+- [Djot](https://djot.net/) is a new attempt at refining Markdown.
 - [LaTex](https://en.wikipedia.org/wiki/LaTeX) is the grandma of markup languages. Big and intimidating. Used in academia. A little beyond the scope for us.
 
 ## plugins for writing 
@@ -87,6 +88,8 @@ Vanilla Vim is more than capable. However, you may want to customise it to make 
 - [org.vim](https://github.com/axvr/org.vim). Org mode syntax highlighting and folding for Vim
 - [targets.vim](https://github.com/wellle/targets.vim). Vim plugin that provides additional text objects
 - [vim-exchange](https://github.com/tommcdo/vim-exchange). Swap words when they’re in the order wrong. Vimcasts has a [tutorial](http://vimcasts.org/episodes/swapping-two-regions-of-text-with-exchange-vim/) :+1:
+- [vim-grammarous](https://github.com/rhysd/vim-grammarous) A powerful grammar checker for Vim using LanguageTool :eyes:
+- [vim-languagetool](https://github.com/dpelle/vim-LanguageTool) A vim plugin for the LanguageTool grammar checker :eyes:
 - [vim-lengthy](https://github.com/Raimondi/vim-lengthy). Colorize sentences by word count
 - [vim-lexical](https://github.com/preservim/vim-lexical). Build on Vim’s spell/thes/dict completion
 - [vim-online-thesaurus](https://github.com/beloglazov/vim-online-thesaurus). Thesaurus look up
@@ -105,6 +108,7 @@ Vanilla Vim is more than capable. However, you may want to customise it to make 
 
 - [The Documentation](http://vimdoc.sourceforge.net/htmldoc/help.html)
 - [A Vim Cheatsheet](https://learnxinyminutes.com/docs/vim/) and [another one](https://vim.rtorr.com/)
+- [vim galore](https://github.com/mhinz/vim-galore) :eyes:
 - [Learn Vimscript the Hard Way](https://learnvimscriptthehardway.stevelosh.com/) and [Coming home to vim](https://stevelosh.com/blog/2010/09/coming-home-to-vim) - Steve Losh :+1:
 - [Everyone Who Tried to Convince Me to use Vim was Wrong](https://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/) - yehudakatz :+1:
 - [Seven habits of effective text editing](https://www.moolenaar.net/habits.html) - Bram Moolenaar
