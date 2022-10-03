@@ -1,24 +1,40 @@
 # writing vim
 
-*Note: I am not a vim expert by any means. But I have written a lot of prose with vim, including articles, blogs, posts (like this one), university essays, and the first draft of a novel. I consider myself a kind of veteran beginner and this comes from that perspective*
+An awesome-ish list of vim for writers. Geared towards beginners, but hopefully useful for others too. 
+
+Items with :+1: are recommended. 
+
+Items with :eyes: are new
+
+## contents
+
+1. [contents](#contents)
+2. [why](#why)
+3. [writing with vim](#writing-with-vim)
+4. [getting started](#getting-started)
+5. [a note on markup languages](#a-note-on-markup-languages)
+6. [plugins for writing](#plugins-for-writing)
+7. [general vim resources](#general-vim-resources)
+8. [other resources](#other-resources)
+9. [contributing](#contributing)
+
+## why
 
 **So... why use a text editor for writing over a word processor like Microsoft Word, Apple Pages or Google Docs?** 
 
 There are many reasons, but the most important/obvious are:
 
 - The separation of [text and styling](https://en.m.wikipedia.org/wiki/Separation_of_content_and_presentation) and the productivity boost that comes with that—essentially they force you to focus on the text instead of faffing about with fonts and headings. 
-- They use an open, non-proprietary, plaintext file format, meaning you can rely on your files being usable fifty years from now[^1]. 
+- They use an open, non-proprietary, plain text file format, meaning you can rely on your files being usable fifty years from now[^1]. 
 - Text editors are faster, lighter, and appear less prone to bugs and/or crashes.
 
 **You could say the same thing about Notepad, why use vim?** 
 
-Yes, and if you want to use Notepad or TextEdit or the like, you should. Whatever is most comfortable for you. In the case of vim, the positives of plaintext files also apply to the editor itself. It’s reliable, tested, lightweight and cross platform—it’s available across all operating systems including iOS and Android—and your can use the same config across all your devices. More than that though is the powerful and unrivalled editing language (described in detail in some of the links below) that strives to increase editing effects. Add to that the deep customisability and you can shape vim into a productive and personal tool. 
+Yes, and if you want to use Notepad or TextEdit or the like, you should. Whatever is most comfortable for you. In the case of vim, the positives of plain text files also apply to the editor itself. It’s reliable, tested, lightweight and cross platform—it’s available across all operating systems including iOS and Android—and your can use the same config across all your devices. More than that though is the powerful and unrivalled editing language (described in detail in some of the links below) that strives to increase editing effects. Add to that the deep customisability and you can shape vim into a productive and personal tool. 
 
 ![steep](steep.svg)
 
 The elephant in the room is Vim’s steep learning curve. And yeah there is no getting around that. However, for the purpose of prose that curve is steep but not high, a two or three runs through vimtutor, the first step on the vim highway, and reading some of the links in *general vim*, is enough to start.  Anyway, I recommend at least reading both [Coming home to vim](https://stevelosh.com/blog/2010/09/coming-home-to-vim) and [Everyone Who Tried to Convince Me to use Vim was Wrong](https://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/) before deciding in vim is for you. 
-
-*Links marked with a :+1:  are recommended. links marked with :eyes: are new (since last commit)*
 
 [^1]: Should the world survive that long. And if not, at least the cockroaches will have something to read on their iPads post-apocalypse
 
@@ -49,19 +65,11 @@ Install the GUI version. Either gVim or MacVim. Vim has different shortcuts to o
 
 Bookmark a quality cheat-sheet and the official docs. You The docs can access with `:h <topic>` but I find the online copy is easier to browse. Check the links below.   
 
-As we have seen, one of the main benefits of vim is its configurability. However, for prose, there’s some settings you need in your vimrc:
+As we have seen, one of the main benefits of vim is its configurability. However, for prose, there’s only a few settings you need. For convenience you download a super minimal vimrc here:
 
-```
-set backspace=indent,eol,start
-set wrap
-set linebreak 
-set nolist 
+[minimal vimrc for writing](writing.vimrc)
 
-nnoremap j gj
-nnoremap k gk
-```
-
-These first four options will set up backspacing and word wrapping to work as you would expect. The last two make `j` and `k` move over visual lines—trust me, you’ll want this. 
+This will set up backspacing and word wrapping to work as you would expect in traditional editors.
 
 [^2]: and some options you'll never need to.
 
@@ -88,10 +96,9 @@ Vanilla Vim is more than capable. However, you may want to customise it to make 
 - [org.vim](https://github.com/axvr/org.vim). Org mode syntax highlighting and folding for Vim
 - [targets.vim](https://github.com/wellle/targets.vim). Vim plugin that provides additional text objects
 - [vim-exchange](https://github.com/tommcdo/vim-exchange). Swap words when they’re in the order wrong. Vimcasts has a [tutorial](http://vimcasts.org/episodes/swapping-two-regions-of-text-with-exchange-vim/) :+1:
-- [vim-grammarous](https://github.com/rhysd/vim-grammarous) A powerful grammar checker for Vim using LanguageTool :eyes:
-- [vim-languagetool](https://github.com/dpelle/vim-LanguageTool) A vim plugin for the LanguageTool grammar checker :eyes:
 - [vim-lengthy](https://github.com/Raimondi/vim-lengthy). Colorize sentences by word count
 - [vim-lexical](https://github.com/preservim/vim-lexical). Build on Vim’s spell/thes/dict completion
+- [vim-markdown-toc](https://github.com/ajorgensen/vim-markdown-toc). An easy way to generate a table of contents for your markdown file :eyes: 
 - [vim-online-thesaurus](https://github.com/beloglazov/vim-online-thesaurus). Thesaurus look up
 - [vim-pandoc](https://github.com/vim-pandoc/vim-pandoc). Pandoc integration and utilities for vim
 - [vim-pencil](https://github.com/preservim/vim-pencil). Rethinking Vim as a tool for writing
@@ -104,26 +111,25 @@ Vanilla Vim is more than capable. However, you may want to customise it to make 
 - [visual-split.vim](https://github.com/wellle/visual-split.vim). Vim plugin to control splits with visual selections or text objects
 - [writegood](https://github.com/davidbeckingsale/writegood.vim). Highlight ‘weasel words’ etc
 
-## general vim links
+## general vim resources
 
 - [The Documentation](http://vimdoc.sourceforge.net/htmldoc/help.html)
-- [A Vim Cheatsheet](https://learnxinyminutes.com/docs/vim/) and [another one](https://vim.rtorr.com/)
+- [A Vim Cheatsheet](https://learnxinyminutes.com/docs/vim/)
+- [And another one](https://vim.rtorr.com/)
 - [vim galore](https://github.com/mhinz/vim-galore) :eyes:
-- [Learn Vimscript the Hard Way](https://learnvimscriptthehardway.stevelosh.com/) and [Coming home to vim](https://stevelosh.com/blog/2010/09/coming-home-to-vim) - Steve Losh :+1:
-- [Everyone Who Tried to Convince Me to use Vim was Wrong](https://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/) - yehudakatz :+1:
+- [Learn Vimscript the Hard Way](https://learnvimscriptthehardway.stevelosh.com/) - Steve Losh :+1:
 - [Seven habits of effective text editing](https://www.moolenaar.net/habits.html) - Bram Moolenaar
 - [Practical Vim](https://www.amazon.com/Practical-Vim-Edit-Speed-Thought/dp/1680501275) - Drew Neil :+1:
-- [Idiomatic Vimrc: Advice on writing your own config](https://github.com/romainl/idiomatic-vimrc) and [these gists](https://gist.github.com/romainl/4b9f139d2a8694612b924322de1025ce) - romainl 
+- [Idiomatic Vimrc: Advice on writing your own config](https://github.com/romainl/idiomatic-vimrc) - romainl 
 - [My vim config](https://github.com/phantomdiorama/vimfiles). You shouldn’t copy it. Check out the above instead.
 
-## other links
+## other resources
 
-If you liked this you might like these:
+The *if you liked that you'll like this* section: 
 
 - [Using Git Version Control as a Writer](https://news.itsfoss.com/version-control-writers/)
-- [Why Geeks Love Plain Text (And Why You Should Too)](https://www.lifehack.org/articles/technology/why-geeks-love-plain-text-and-why-you-should-too.html). 
 - [Write plain text files](https://sive.rs/plaintext)
 
 ## contributing 
 
-Suggestions are welcome. Please create an issue.
+Suggestions are welcome! Please create an issue.
