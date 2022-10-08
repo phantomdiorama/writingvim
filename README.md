@@ -8,15 +8,14 @@ Items with :eyes: are new
 
 ## contents
 
-1. [contents](#contents)
-2. [why](#why)
-3. [writing with vim](#writing-with-vim)
-4. [getting started](#getting-started)
-5. [a note on markup languages](#a-note-on-markup-languages)
-6. [plugins for writing](#plugins-for-writing)
-7. [general vim resources](#general-vim-resources)
-8. [other resources](#other-resources)
-9. [contributing](#contributing)
+1. [why](#why)
+2. [writing with vim](#writing-with-vim)
+3. [getting started](#getting-started)
+4. [a note on markup languages](#a-note-on-markup-languages)
+5. [plugins for writing](#plugins-for-writing)
+6. [general vim resources](#general-vim-resources)
+7. [other resources](#other-resources)
+8. [contributing](#contributing)
 
 ## why
 
@@ -56,6 +55,7 @@ Here is collection of links on using vim for prose. The criteria for this sectio
 - [Configuring Vim as a Writing Tool](https://news.itsfoss.com/configuring-vim-writing/) - Its FOSS
 - [How I'm writing my book using Vim, Git and Ruby](http://blog.chrismdp.com/2010/11/how-im-writing-my-book-using-git-and-ruby/) - Chris Parsons
 - [Real-time LaTeX using Vim/Neovim, VimTeX, and snippets](https://ejmastnak.github.io/tutorials/vim-latex/intro.html) - ejmastnak
+- [You (probably) don’t need Vimwiki](http://joereynoldsaudio.com/2018/07/07/you-dont-need-vimwiki.html) - Joe Reynolds :eyes:
 
 ## getting started
 
