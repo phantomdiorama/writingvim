@@ -1,5 +1,7 @@
 " minimal writing vimrc
-" 3 October 2022
+" 12 October 2022
+filetype plugin indent on
+syntax on
 
 set backspace=indent,eol,start  " backspace like you would expect
 set wrap                        " use word wrapping
