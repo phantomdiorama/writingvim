@@ -1,8 +1,8 @@
 # writing vim
 
-An awesome-ish list of vim for writers. Geared towards beginners, but hopefully useful for others too. 
+An awesome-ish list of vim for writers. Geared towards beginners, but hopefully useful for others too.
 
-Items with :+1: are recommended. 
+Items with :+1: are recommended.
 
 Items with :eyes: are new
 
@@ -19,37 +19,37 @@ Items with :eyes: are new
 
 ## why
 
-**So... why use a text editor for writing over a word processor like Microsoft Word, Apple Pages or Google Docs?** 
+**So... why use a text editor for writing over a word processor like Microsoft Word, Apple Pages or Google Docs?**
 
 There are many reasons, but the most important/obvious are:
 
-- The separation of [text and styling](https://en.m.wikipedia.org/wiki/Separation_of_content_and_presentation) and the productivity boost that comes with that—essentially they force you to focus on the text instead of faffing about with fonts and headings. 
-- They use an open, non-proprietary, plain text file format, meaning you can rely on your files being usable fifty years from now[^1]. 
+- The separation of [text and styling](https://en.m.wikipedia.org/wiki/Separation_of_content_and_presentation) and the productivity boost that comes with that—essentially they force you to focus on the text instead of faffing about with fonts and headings.
+- They use an open, non-proprietary, plain text file format, meaning you can rely on your files being usable fifty years from now[^1].
 - Text editors are faster, lighter, and appear less prone to bugs and/or crashes.
 
-**You could say the same thing about Notepad, why use vim?** 
+**You could say the same thing about Notepad, why use vim?**
 
-Yes, and if you want to use Notepad or TextEdit or the like, you should. Whatever is most comfortable for you. In the case of vim, the positives of plain text files also apply to the editor itself. It’s reliable, tested, lightweight and cross platform—it’s available across all operating systems including iOS and Android—and your can use the same config across all your devices. More than that though is the powerful and unrivalled editing language (described in detail in some of the links below) that strives to increase editing effects. Add to that the deep customisability and you can shape vim into a productive and personal tool. 
+Yes, and if you want to use Notepad or TextEdit or the like, you should. Whatever is most comfortable for you. In the case of vim, the positives of plain text files also apply to the editor itself. It’s reliable, tested, lightweight and cross platform—it’s available across all operating systems including iOS and Android—and your can use the same config across all your devices. More than that though is the powerful and unrivalled editing language (described in detail in some of the links below) that strives to increase editing effects. Add to that the deep customisability and you can shape vim into a productive and personal tool.
 
 ![steep](steep.svg)
 
-The elephant in the room is Vim’s steep learning curve. And yeah there is no getting around that. However, for the purpose of prose that curve is steep but not high, a two or three runs through vimtutor, the first step on the vim highway, and reading some of the links in *general vim*, is enough to start.  Anyway, I recommend at least reading both [Coming home to vim](https://stevelosh.com/blog/2010/09/coming-home-to-vim) and [Everyone Who Tried to Convince Me to use Vim was Wrong](https://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/) before deciding in vim is for you. 
+The elephant in the room is Vim’s steep learning curve. And yeah there is no getting around that. However, for the purpose of prose that curve is steep but not high, a two or three runs through vimtutor, the first step on the vim highway, and reading some of the links in *general vim*, is enough to start.  Anyway, I recommend at least reading both [Coming home to vim](https://stevelosh.com/blog/2010/09/coming-home-to-vim) and [Everyone Who Tried to Convince Me to use Vim was Wrong](https://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/) before deciding in vim is for you.
 
 [^1]: Should the world survive that long. And if not, at least the cockroaches will have something to read on their iPads post-apocalypse
 
-## writing with vim 
+## writing with vim
 
-Here is collection of links on using vim for prose. The criteria for this section is that I think the link is *interesting* (with the usual disclaimer that I do not necessarily endorse the opinions expressed or their authors). 
+Here is collection of links on using vim for prose. The criteria for this section is that I think the link is *interesting* (with the usual disclaimer that I do not necessarily endorse the opinions expressed or their authors).
 
 - [writing prose in vim](https://jonathanh.co.uk/blog/writing-prose-in-vim/) - Jonathan Hodgson
 - [take notes using LaTeX and Vim](https://castel.dev/post/lecture-notes-1) - Gilles Castel
-- [WRITING PROSE IN VIM](http://ultralight.cc/posts/71ab285a0c633f47.html) - ultralight 
+- [WRITING PROSE IN VIM](http://ultralight.cc/posts/71ab285a0c633f47.html) - ultralight
 - [using vim to write prose](https://n3wjack.net/2022/02/07/using-vim-to-write-prose/) - n3wjack
 - [Using Vim for writing Prose](http://www.terminally-incoherent.com/blog/2013/06/17/using-vim-for-writing-prose/) - terminally incoherent
 - [Vim for Writers](https://www.naperwrimo.org/wiki/index.php?title=Vim_for_Writers) - NaperWriMo Wiki
 - [Vim for Writing](https://raivivek.in/2016/09/vim-for-writing/#) - Vivek
-- [Writing a Book with Pandoc, Make, and Vim](https://keleshev.com/my-book-writing-setup/) - Vladimir Keleshev 
-- [Writing, Editing and World-Building at the speed of thought with Vim](https://www.youtube.com/watch?v=2ORWaIqyj7k) - Theena Kumaragurunathan 
+- [Writing a Book with Pandoc, Make, and Vim](https://keleshev.com/my-book-writing-setup/) - Vladimir Keleshev
+- [Writing, Editing and World-Building at the speed of thought with Vim](https://www.youtube.com/watch?v=2ORWaIqyj7k) - Theena Kumaragurunathan
 - [The Woodnotes Guide to Vim for Writers](https://therandymon.com/woodnotes/vim-for-writers/vimforwriters.html)
 - [Writing with Vim](https://jamierubin.net/2019/03/21/writing-with-vim/) - Jamie Todd Rubin
 - [Configuring Vim as a Writing Tool](https://news.itsfoss.com/configuring-vim-writing/) - Its FOSS
@@ -63,7 +63,7 @@ The above links show vim can be a powerful and flexible editor of prose, with ne
 
 Install the GUI version. Either gVim or MacVim. Vim has different shortcuts to other editors, you’ll want the menus as backup when starting out.
 
-Bookmark a quality cheat-sheet and the official docs. You The docs can access with `:h <topic>` but I find the online copy is easier to browse. Check the links below.   
+Bookmark a quality cheat-sheet and the official docs. You The docs can access with `:h <topic>` but I find the online copy is easier to browse. Check the links below.
 
 As we have seen, one of the main benefits of vim is its configurability. However, for prose, there’s only a few settings you need. For convenience you download a super minimal vimrc here:
 
@@ -75,7 +75,7 @@ This will set up backspacing and word wrapping to work as you would expect in tr
 
 ## a note on markup languages
 
-While not essential, when writing in plaintext you may want to markup your er... text to indicate emphasis and the like. You’ve heard of Markdown but there’s a number of light markup languages to choose from: 
+While not essential, when writing in plaintext you may want to markup your er... text to indicate emphasis and the like. You’ve heard of Markdown but there’s a number of light markup languages to choose from:
 
 - [commonmark](https://commonmark.org/). There are so many flavours of Markdown. To avoid confusion I suggest just using this.
 - [AsciiDoc](https://asciidoc.org/) is both older and a bit more complex than Markdown. It does have some nice features of its own.
@@ -83,22 +83,22 @@ While not essential, when writing in plaintext you may want to markup your er...
 - [Djot](https://djot.net/) is a new attempt at refining Markdown.
 - [LaTex](https://en.wikipedia.org/wiki/LaTeX) is the grandma of markup languages. Big and intimidating. Used in academia. A little beyond the scope for us.
 
-## plugins for writing 
+## plugins for writing
 
-Vanilla Vim is more than capable. However, you may want to customise it to make it fit better into your workflow. Check the documentation for options you may want to enable, and then check out Vim’s vast plugin ecosystem. This second step is optional.  
+Vanilla Vim is more than capable. However, you may want to customise it to make it fit better into your workflow. Check the documentation for options you may want to enable, and then check out Vim’s vast plugin ecosystem. This second step is optional.
 
 - [abolish](https://github.com/tpope/vim-abolish). Fancy find and replace :+1:
-- [ditto](https://github.com/dbmrq/vim-ditto). Stop repeating yourself. 
-- [goyo](https://github.com/junegunn/goyo.vim). Distraction-free writing in Vim. Also [limelight](https://github.com/junegunn/limelight.vim) by the same author 
-- [gundo](https://github.com/sjl/gundo.vim). Visual undo tree 
+- [ditto](https://github.com/dbmrq/vim-ditto). Stop repeating yourself.
+- [goyo](https://github.com/junegunn/goyo.vim). Distraction-free writing in Vim. Also [limelight](https://github.com/junegunn/limelight.vim) by the same author
+- [gundo](https://github.com/sjl/gundo.vim). Visual undo tree
 - [litecorrect](https://github.com/preservim/vim-litecorrect) is a small autocorrect plugin for the ~400 most common typos
-- [nrrwrgn](https://github.com/chrisbra/NrrwRgn). Focus on small region of text 
+- [nrrwrgn](https://github.com/chrisbra/NrrwRgn). Focus on small region of text
 - [org.vim](https://github.com/axvr/org.vim). Org mode syntax highlighting and folding for Vim
 - [targets.vim](https://github.com/wellle/targets.vim). Vim plugin that provides additional text objects
 - [vim-exchange](https://github.com/tommcdo/vim-exchange). Swap words when they’re in the order wrong. Vimcasts has a [tutorial](http://vimcasts.org/episodes/swapping-two-regions-of-text-with-exchange-vim/) :+1:
 - [vim-lengthy](https://github.com/Raimondi/vim-lengthy). Colorize sentences by word count
 - [vim-lexical](https://github.com/preservim/vim-lexical). Build on Vim’s spell/thes/dict completion
-- [vim-markdown-toc](https://github.com/ajorgensen/vim-markdown-toc). An easy way to generate a table of contents for your markdown file :eyes: 
+- [vim-markdown-toc](https://github.com/ajorgensen/vim-markdown-toc). An easy way to generate a table of contents for your markdown file :eyes:
 - [vim-online-thesaurus](https://github.com/beloglazov/vim-online-thesaurus). Thesaurus look up
 - [vim-pandoc](https://github.com/vim-pandoc/vim-pandoc). Pandoc integration and utilities for vim
 - [vim-pencil](https://github.com/preservim/vim-pencil). Rethinking Vim as a tool for writing
@@ -120,16 +120,17 @@ Vanilla Vim is more than capable. However, you may want to customise it to make 
 - [Learn Vimscript the Hard Way](https://learnvimscriptthehardway.stevelosh.com/) - Steve Losh :+1:
 - [Seven habits of effective text editing](https://www.moolenaar.net/habits.html) - Bram Moolenaar
 - [Practical Vim](https://www.amazon.com/Practical-Vim-Edit-Speed-Thought/dp/1680501275) - Drew Neil :+1:
-- [Idiomatic Vimrc: Advice on writing your own config](https://github.com/romainl/idiomatic-vimrc) - romainl 
+- [Idiomatic Vimrc: Advice on writing your own config](https://github.com/romainl/idiomatic-vimrc) - romainl
 - [My vim config](https://github.com/phantomdiorama/vimfiles). You shouldn’t copy it. Check out the above instead.
+- [Recommendations from #vim](https://www.vi-improved.org/recommendations/) :eyes:
 
 ## other resources
 
-The *if you liked that you'll like this* section: 
+The *if you liked that you'll like this* section:
 
 - [Using Git Version Control as a Writer](https://news.itsfoss.com/version-control-writers/)
 - [Write plain text files](https://sive.rs/plaintext)
 
-## contributing 
+## contributing
 
 Suggestions are welcome! Please create an issue.
