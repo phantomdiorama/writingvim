@@ -83,7 +83,7 @@ While not essential, when writing in plaintext you may want to markup your er...
 - [Djot](https://djot.net/) is a new attempt at refining Markdown.
 - [Fountain](https://fountain.io/) is a markup language for writing screenplays.
 - [LaTex](https://en.wikipedia.org/wiki/LaTeX) is the grandma of markup languages. Big and intimidating. Used in academia. A little beyond the scope for us.
-- [Typst](https://github.com/typst/typst) :eyes:
+- [Typst](https://github.com/typst/typst) Typst is a new markup-based typesetting system that is designed to be “as powerful as LaTeX while being much easier to learn and use” :eyes:
 
 ## plugins for writing
 
