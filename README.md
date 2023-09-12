@@ -91,7 +91,7 @@ Vanilla Vim is more than capable. However, you may want to customise it to make 
 
 - [abolish](https://github.com/tpope/vim-abolish). Fancy find and replace :+1:
 - [ditto](https://github.com/dbmrq/vim-ditto). Stop repeating yourself.
-- [fountain4vim](https://github.com/stevenjaycohen/fountain4vim) :eyes:
+- [fountain4vim](https://github.com/stevenjaycohen/fountain4vim) is a modern plugin for working with Fountain :eyes:
 - [goyo](https://github.com/junegunn/goyo.vim). Distraction-free writing in Vim. Also [limelight](https://github.com/junegunn/limelight.vim) by the same author
 - [gundo](https://github.com/sjl/gundo.vim). Visual undo tree
 - [litecorrect](https://github.com/preservim/vim-litecorrect) is a small autocorrect plugin for the ~400 most common typos
