@@ -8,14 +8,15 @@ Items with :eyes: are new
 
 ## contents
 
-1. [why](#why)
-2. [writing with vim](#writing-with-vim)
+1. [contents](#contents)
+2. [why](#why)
 3. [getting started](#getting-started)
-4. [a note on markup languages](#a-note-on-markup-languages)
-5. [plugins for writing](#plugins-for-writing)
-6. [general vim resources](#general-vim-resources)
-7. [other resources](#other-resources)
-8. [contributing](#contributing)
+4. [writing with vim](#writing-with-vim)
+5. [a note on markup languages](#a-note-on-markup-languages)
+6. [plugins for writing](#plugins-for-writing)
+7. [general vim resources](#general-vim-resources)
+8. [other resources](#other-resources)
+9. [contributing](#contributing)
 
 ## why
 
@@ -37,6 +38,22 @@ The elephant in the room is Vim’s steep learning curve. And yeah there is no g
 
 [^1]: Should the world survive that long. And if not, at least the cockroaches will have something to read on their iPads post-apocalypse
 
+## getting started
+
+The below links show vim can be a powerful and flexible editor of prose, with near endless configuration options. Perhaps too many options. But you don’t need to learn it all at once[^2], especially if your focus is writing prose. Here’s a some simple steps to get started:
+
+Install the GUI version. Either gVim or MacVim. Vim has different shortcuts to other editors, you’ll want the menus as backup when starting out.
+
+Bookmark a quality cheat-sheet and the official docs. You The docs can access with `:h <topic>` but I find the online copy is easier to browse. Check the links below.
+
+As we have seen, one of the main benefits of vim is its configurability. However, for prose, there’s only a few settings you need. For convenience you download a super minimal vimrc here:
+
+[minimal vimrc for writing](writing.vimrc)
+
+This will set up backspacing and word wrapping to work as you would expect in traditional editors.
+
+[^2]: and some options you'll never need to.
+
 ## writing with vim
 
 Here is collection of links on using vim for prose. The criteria for this section is that I think the link is *interesting* (with the usual disclaimer that I do not necessarily endorse the opinions expressed or their authors).
@@ -55,33 +72,18 @@ Here is collection of links on using vim for prose. The criteria for this sectio
 - [Configuring Vim as a Writing Tool](https://news.itsfoss.com/configuring-vim-writing/) - Its FOSS
 - [How I'm writing my book using Vim, Git and Ruby](http://blog.chrismdp.com/2010/11/how-im-writing-my-book-using-git-and-ruby/) - Chris Parsons
 - [Real-time LaTeX using Vim/Neovim, VimTeX, and snippets](https://ejmastnak.github.io/tutorials/vim-latex/intro.html) - ejmastnak
-- [You (probably) don’t need Vimwiki](http://joereynoldsaudio.com/2018/07/07/you-dont-need-vimwiki.html) - Joe Reynolds :eyes:
-
-## getting started
-
-The above links show vim can be a powerful and flexible editor of prose, with near endless configuration options. Perhaps too many options. But you don’t need to learn it all at once[^2], especially if your focus is writing prose. Here’s a some simple steps to get started:
-
-Install the GUI version. Either gVim or MacVim. Vim has different shortcuts to other editors, you’ll want the menus as backup when starting out.
-
-Bookmark a quality cheat-sheet and the official docs. You The docs can access with `:h <topic>` but I find the online copy is easier to browse. Check the links below.
-
-As we have seen, one of the main benefits of vim is its configurability. However, for prose, there’s only a few settings you need. For convenience you download a super minimal vimrc here:
-
-[minimal vimrc for writing](writing.vimrc)
-
-This will set up backspacing and word wrapping to work as you would expect in traditional editors.
-
-[^2]: and some options you'll never need to.
+- [You (probably) don’t need Vimwiki](http://joereynoldsaudio.com/2018/07/07/you-dont-need-vimwiki.html) - Joe Reynolds
 
 ## a note on markup languages
 
 While not essential, when writing in plaintext you may want to markup your er... text to indicate emphasis and the like. You’ve heard of Markdown but there’s a number of light markup languages to choose from:
 
-- [commonmark](https://commonmark.org/). There are so many flavours of Markdown. To avoid confusion I suggest just using this.
 - [AsciiDoc](https://asciidoc.org/) is both older and a bit more complex than Markdown. It does have some nice features of its own.
-- [Fountain](https://fountain.io/) is a markup language for writing screenplays.
+- [Commonmark](https://commonmark.org/). There are so many flavours of Markdown. To avoid confusion I suggest just using this.
 - [Djot](https://djot.net/) is a new attempt at refining Markdown.
+- [Fountain](https://fountain.io/) is a markup language for writing screenplays.
 - [LaTex](https://en.wikipedia.org/wiki/LaTeX) is the grandma of markup languages. Big and intimidating. Used in academia. A little beyond the scope for us.
+- [Typst](https://github.com/typst/typst) :eyes:
 
 ## plugins for writing
 
@@ -89,6 +91,7 @@ Vanilla Vim is more than capable. However, you may want to customise it to make 
 
 - [abolish](https://github.com/tpope/vim-abolish). Fancy find and replace :+1:
 - [ditto](https://github.com/dbmrq/vim-ditto). Stop repeating yourself.
+- [fountain4vim](https://github.com/stevenjaycohen/fountain4vim) :eyes:
 - [goyo](https://github.com/junegunn/goyo.vim). Distraction-free writing in Vim. Also [limelight](https://github.com/junegunn/limelight.vim) by the same author
 - [gundo](https://github.com/sjl/gundo.vim). Visual undo tree
 - [litecorrect](https://github.com/preservim/vim-litecorrect) is a small autocorrect plugin for the ~400 most common typos
@@ -96,9 +99,10 @@ Vanilla Vim is more than capable. However, you may want to customise it to make 
 - [org.vim](https://github.com/axvr/org.vim). Org mode syntax highlighting and folding for Vim
 - [targets.vim](https://github.com/wellle/targets.vim). Vim plugin that provides additional text objects
 - [vim-exchange](https://github.com/tommcdo/vim-exchange). Swap words when they’re in the order wrong. Vimcasts has a [tutorial](http://vimcasts.org/episodes/swapping-two-regions-of-text-with-exchange-vim/) :+1:
+- [vim-fountain ](https://github.com/kblin/vim-fountain) :eyes:
 - [vim-lengthy](https://github.com/Raimondi/vim-lengthy). Colorize sentences by word count
 - [vim-lexical](https://github.com/preservim/vim-lexical). Build on Vim’s spell/thes/dict completion
-- [vim-markdown-toc](https://github.com/ajorgensen/vim-markdown-toc). An easy way to generate a table of contents for your markdown file :eyes:
+- [vim-markdown-toc](https://github.com/ajorgensen/vim-markdown-toc). An easy way to generate a table of contents for your markdown file
 - [vim-online-thesaurus](https://github.com/beloglazov/vim-online-thesaurus). Thesaurus look up
 - [vim-pandoc](https://github.com/vim-pandoc/vim-pandoc). Pandoc integration and utilities for vim
 - [vim-pencil](https://github.com/preservim/vim-pencil). Rethinking Vim as a tool for writing
@@ -122,7 +126,7 @@ Vanilla Vim is more than capable. However, you may want to customise it to make 
 - [Practical Vim](https://www.amazon.com/Practical-Vim-Edit-Speed-Thought/dp/1680501275) - Drew Neil :+1:
 - [Idiomatic Vimrc: Advice on writing your own config](https://github.com/romainl/idiomatic-vimrc) - romainl
 - [My vim config](https://github.com/phantomdiorama/vimfiles). You shouldn’t copy it. Check out the above instead.
-- [Recommendations from #vim](https://www.vi-improved.org/recommendations/) :eyes:
+- [Recommendations from #vim](https://www.vi-improved.org/recommendations/)
 
 ## other resources
 
