@@ -58,21 +58,22 @@ This will set up backspacing and word wrapping to work as you would expect in tr
 
 Here is collection of links on using vim for prose. The criteria for this section is that I think the link is *interesting* (with the usual disclaimer that I do not necessarily endorse the opinions expressed or their authors).
 
-- [writing prose in vim](https://jonathanh.co.uk/blog/writing-prose-in-vim/) - Jonathan Hodgson
-- [take notes using LaTeX and Vim](https://castel.dev/post/lecture-notes-1) - Gilles Castel
-- [WRITING PROSE IN VIM](http://ultralight.cc/posts/71ab285a0c633f47.html) - ultralight
-- [using vim to write prose](https://n3wjack.net/2022/02/07/using-vim-to-write-prose/) - n3wjack
-- [Using Vim for writing Prose](http://www.terminally-incoherent.com/blog/2013/06/17/using-vim-for-writing-prose/) - terminally incoherent
-- [Vim for Writers](https://www.naperwrimo.org/wiki/index.php?title=Vim_for_Writers) - NaperWriMo Wiki
-- [Vim for Writing](https://raivivek.in/2016/09/vim-for-writing/#) - Vivek
-- [Writing a Book with Pandoc, Make, and Vim](https://keleshev.com/my-book-writing-setup/) - Vladimir Keleshev
-- [Writing, Editing and World-Building at the speed of thought with Vim](https://www.youtube.com/watch?v=2ORWaIqyj7k) - Theena Kumaragurunathan
-- [The Woodnotes Guide to Vim for Writers](https://therandymon.com/woodnotes/vim-for-writers/vimforwriters.html)
-- [Writing with Vim](https://jamierubin.net/2019/03/21/writing-with-vim/) - Jamie Todd Rubin
 - [Configuring Vim as a Writing Tool](https://news.itsfoss.com/configuring-vim-writing/) - Its FOSS
 - [How I'm writing my book using Vim, Git and Ruby](http://blog.chrismdp.com/2010/11/how-im-writing-my-book-using-git-and-ruby/) - Chris Parsons
 - [Real-time LaTeX using Vim/Neovim, VimTeX, and snippets](https://ejmastnak.github.io/tutorials/vim-latex/intro.html) - ejmastnak
+- [The Woodnotes Guide to Vim for Writers](https://therandymon.com/woodnotes/vim-for-writers/vimforwriters.html)
+- [Using Vim for writing Prose](http://www.terminally-incoherent.com/blog/2013/06/17/using-vim-for-writing-prose/) - terminally incoherent
+- [Vim for Writers](https://www.naperwrimo.org/wiki/index.php?title=Vim_for_Writers) - NaperWriMo Wiki
+- [Vim for Writing](https://raivivek.in/2016/09/vim-for-writing/#) - Vivek
+- [WRITING PROSE IN VIM](http://ultralight.cc/posts/71ab285a0c633f47.html) - ultralight
+- [Writing Markdown in Vim](https://codeinthehole.com/tips/writing-markdown-in-vim/) - David Winterbottom :eyes:
+- [Writing a Book with Pandoc, Make, and Vim](https://keleshev.com/my-book-writing-setup/) - Vladimir Keleshev
+- [Writing with Vim](https://jamierubin.net/2019/03/21/writing-with-vim/) - Jamie Todd Rubin
+- [Writing, Editing and World-Building at the speed of thought with Vim](https://www.youtube.com/watch?v=2ORWaIqyj7k) - Theena Kumaragurunathan
 - [You (probably) don’t need Vimwiki](http://joereynoldsaudio.com/2018/07/07/you-dont-need-vimwiki.html) - Joe Reynolds
+- [take notes using LaTeX and Vim](https://castel.dev/post/lecture-notes-1) - Gilles Castel
+- [using vim to write prose](https://n3wjack.net/2022/02/07/using-vim-to-write-prose/) - n3wjack
+- [writing prose in vim](https://jonathanh.co.uk/blog/writing-prose-in-vim/) - Jonathan Hodgson
 
 ## a note on markup languages
 
@@ -84,6 +85,7 @@ While not essential, when writing in plaintext you may want to markup your er...
 - [Fountain](https://fountain.io/) is a markup language for writing screenplays.
 - [LaTex](https://en.wikipedia.org/wiki/LaTeX) is the grandma of markup languages. Big and intimidating. Used in academia. A little beyond the scope for us.
 - [Typst](https://github.com/typst/typst) Typst is a new markup-based typesetting system that is designed to be “as powerful as LaTeX while being much easier to learn and use” :eyes:
+- [txt2tags](https://txt2tags.org/) super minimal markup language :eyes:
 
 ## plugins for writing
 
