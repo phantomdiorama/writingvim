@@ -1,6 +1,7 @@
 # writing vim
 
-An awesome-ish list of vim for writers. Geared towards beginners, but hopefully useful for others too.
+An awesome-ish list of vim for writers. Geared towards beginners,
+but hopefully useful for others too.
 
 Items with :+1: are recommended.
 
@@ -20,43 +21,71 @@ Items with :eyes: are new
 
 ## why
 
-**So... why use a text editor for writing over a word processor like Microsoft Word, Apple Pages or Google Docs?**
+**So... why use a text editor for writing over a word processor like
+Microsoft Word, Apple Pages or Google Docs?**
 
 There are many reasons, but the most important/obvious are:
 
-- The separation of [text and styling](https://en.m.wikipedia.org/wiki/Separation_of_content_and_presentation) and the productivity boost that comes with that—essentially they force you to focus on the text instead of faffing about with fonts and headings.
-- They use an open, non-proprietary, plain text file format, meaning you can rely on your files being usable fifty years from now[^1].
-- Text editors are faster, lighter, and appear less prone to bugs and/or crashes.
+- The separation of [text and styling](https://en.m.wikipedia.org/wiki/Separation_of_content_and_presentation)
+  and the productivity boost that comes with that—essentially they force you to
+  focus on the text instead of faffing about with fonts and headings.
+- They use an open, non-proprietary, plain text file format, meaning you can
+  rely on your files being usable fifty years from now[^1].
+- Text editors are faster, lighter, and appear less prone to bugs and/or
+  crashes.
 
 **You could say the same thing about Notepad, why use vim?**
 
-Yes, and if you want to use Notepad or TextEdit or the like, you should. Whatever is most comfortable for you. In the case of vim, the positives of plain text files also apply to the editor itself. It’s reliable, tested, lightweight and cross platform—it’s available across all operating systems including iOS and Android—and your can use the same config across all your devices. More than that though is the powerful and unrivalled editing language (described in detail in some of the links below) that strives to increase editing effects. Add to that the deep customisability and you can shape vim into a productive and personal tool.
+Yes, and if you want to use Notepad or TextEdit or the like, you should.
+Whatever is most comfortable for you. In the case of vim, the positives of
+plain text files also apply to the editor itself. It’s reliable, tested,
+lightweight and cross platform—it’s available across all operating systems
+including iOS and Android—and your can use the same config across all your
+devices. More than that though is the powerful and unrivalled editing
+language (described in detail in some of the links below) that strives to
+increase editing effects. Add to that the deep customisability and you can
+shape vim into a productive and personal tool.
 
 ![steep](steep.svg)
 
-The elephant in the room is Vim’s steep learning curve. And yeah there is no getting around that. However, for the purpose of prose that curve is steep but not high, a two or three runs through vimtutor, the first step on the vim highway, and reading some of the links in *general vim*, is enough to start.  Anyway, I recommend at least reading both [Coming home to vim](https://stevelosh.com/blog/2010/09/coming-home-to-vim) and [Everyone Who Tried to Convince Me to use Vim was Wrong](https://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/) before deciding in vim is for you.
+The elephant in the room is Vim’s steep learning curve. And yeah there is no getting around that. However, for the purpose of prose that curve is steep but not high, a two or three runs through vimtutor, the first step on the vim highway, and reading some of the links in *general vim*, is enough to start.  Anyway, I recommend at least reading both
+[Coming home to vim](https://stevelosh.com/blog/2010/09/coming-home-to-vim) and 
+[Everyone Who Tried to Convince Me to use Vim was Wrong](https://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/) before deciding in vim is for you.
 
 [^1]: Should the world survive that long. And if not, at least the cockroaches will have something to read on their iPads post-apocalypse
 
 ## getting started
 
-The below links show vim can be a powerful and flexible editor of prose, with near endless configuration options. Perhaps too many options. But you don’t need to learn it all at once[^2], especially if your focus is writing prose. Here’s a some simple steps to get started:
+The below links show vim can be a powerful and flexible editor of prose,
+with near endless configuration options. Perhaps too many options. But you
+don’t need to learn it all at once[^2], especially if your focus is
+writing prose.  Here’s a some simple steps to get started:
 
-Install the GUI version. Either gVim or MacVim. Vim has different shortcuts to other editors, you’ll want the menus as backup when starting out.
+Install the GUI version. Either gVim or MacVim. Vim has different
+shortcuts to other editors, you’ll want the menus as backup when starting
+out.
 
-Bookmark a quality cheat-sheet and the official docs. You The docs can access with `:h <topic>` but I find the online copy is easier to browse. Check the links below.
+Bookmark a quality cheat-sheet and the official docs. You The docs can
+access with `:h <topic>` but I find the online copy is easier to browse.
+Check the links below.
 
-As we have seen, one of the main benefits of vim is its configurability. However, for prose, there’s only a few settings you need. For convenience you download a super minimal vimrc here:
+As we have seen, one of the main benefits of vim is its configurability.
+However, for prose, there’s only a few settings you need. For convenience
+you download a super minimal vimrc here:
 
 [minimal vimrc for writing](writing.vimrc)
 
-This will set up backspacing and word wrapping to work as you would expect in traditional editors.
+This will set up backspacing and word wrapping to work as you would expect
+in traditional editors.
 
 [^2]: and some options you'll never need to.
 
 ## writing with vim
 
-Here is collection of links on using vim for prose. The criteria for this section is that I think the link is *interesting* (with the usual disclaimer that I do not necessarily endorse the opinions expressed or their authors).
+Here is collection of links on using vim for prose. The criteria for this
+section is that I think the link is *interesting* (with the usual
+disclaimer that I do not necessarily endorse the opinions expressed or
+their authors).
 
 - [Configuring Vim as a Writing Tool](https://news.itsfoss.com/configuring-vim-writing/) - Its FOSS
 - [How I'm writing my book using Vim, Git and Ruby](http://blog.chrismdp.com/2010/11/how-im-writing-my-book-using-git-and-ruby/) - Chris Parsons
@@ -77,7 +106,10 @@ Here is collection of links on using vim for prose. The criteria for this sectio
 
 ## a note on markup languages
 
-While not essential, when writing in plaintext you may want to markup your er... text to indicate emphasis and the like. You’ve heard of Markdown but there’s a number of light markup languages to choose from:
+While not essential, when writing in plaintext you may want to markup your
+er... text to indicate emphasis and the like. You’ve heard of
+[Markdown](https://daringfireball.net/projects/markdown/) but
+there’s a number of light markup languages to choose from:
 
 - [AsciiDoc](https://asciidoc.org/) is both older and a bit more complex than Markdown. It does have some nice features of its own.
 - [Commonmark](https://commonmark.org/). There are so many flavours of Markdown. To avoid confusion I suggest just using this.
@@ -86,10 +118,14 @@ While not essential, when writing in plaintext you may want to markup your er...
 - [LaTex](https://en.wikipedia.org/wiki/LaTeX) is the grandma of markup languages. Big and intimidating. Used in academia. A little beyond the scope for us.
 - [Typst](https://github.com/typst/typst) Typst is a new markup-based typesetting system that is designed to be “as powerful as LaTeX while being much easier to learn and use” :eyes:
 - [txt2tags](https://txt2tags.org/) super minimal markup language :eyes:
+- [reStructuredText](https://docutils.sourceforge.io/rst.html) perhaps markdown’s main rival
 
 ## plugins for writing
 
-Vanilla Vim is more than capable. However, you may want to customise it to make it fit better into your workflow. Check the documentation for options you may want to enable, and then check out Vim’s vast plugin ecosystem. This second step is optional.
+Vanilla Vim is more than capable. However, you may want to customise it to
+make it fit better into your workflow. Check the documentation for options
+you may want to enable, and then check out Vim’s vast plugin ecosystem.
+This second step is optional.
 
 - [abolish](https://github.com/tpope/vim-abolish). Fancy find and replace :+1:
 - [ditto](https://github.com/dbmrq/vim-ditto). Stop repeating yourself.
@@ -116,6 +152,17 @@ Vanilla Vim is more than capable. However, you may want to customise it to make 
 - [vimwiki](https://github.com/vimwiki/vimwiki). Personal Wiki for Vim
 - [visual-split.vim](https://github.com/wellle/visual-split.vim). Vim plugin to control splits with visual selections or text objects
 - [writegood](https://github.com/davidbeckingsale/writegood.vim). Highlight ‘weasel words’ etc
+
+## colurschemes
+
+There are *thousands* of colorschemes  available for vim, but there are
+surprisingly few decent ones for light mode (which I find better for
+writng). Here are some good light themes:
+
+- [Lucius](https://github.com/jonathanfilip/vim-lucius)
+- [Pencil](https://github.com/preservim/vim-colors-pencil)
+- [Solarized8](https://github.com/lifepillar/vim-solarized8)
+- [Paramount](https://github.com/owickstrom/vim-colors-paramount)
 
 ## general vim resources
 
