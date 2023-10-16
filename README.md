@@ -9,15 +9,17 @@ Items with :eyes: are new
 
 ## contents
 
+
 1. [contents](#contents)
 2. [why](#why)
 3. [getting started](#getting-started)
 4. [writing with vim](#writing-with-vim)
 5. [a note on markup languages](#a-note-on-markup-languages)
 6. [plugins for writing](#plugins-for-writing)
-7. [general vim resources](#general-vim-resources)
-8. [other resources](#other-resources)
-9. [contributing](#contributing)
+7. [colorschemes](#colorschemes)
+8. [general vim resources](#general-vim-resources)
+9. [other resources](#other-resources)
+10. [contributing](#contributing)
 
 ## why
 
@@ -153,7 +155,7 @@ This second step is optional.
 - [visual-split.vim](https://github.com/wellle/visual-split.vim). Vim plugin to control splits with visual selections or text objects
 - [writegood](https://github.com/davidbeckingsale/writegood.vim). Highlight ‘weasel words’ etc
 
-## colurschemes
+## colorschemes
 
 There are *thousands* of colorschemes  available for vim, but there are
 surprisingly few decent ones for light mode (which I find better for
