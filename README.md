@@ -7,19 +7,15 @@ Items with :+1: are recommended.
 
 Items with :eyes: are new
 
-## contents
-
-
-1. [contents](#contents)
-2. [why](#why)
-3. [getting started](#getting-started)
-4. [writing with vim](#writing-with-vim)
-5. [a note on markup languages](#a-note-on-markup-languages)
-6. [plugins for writing](#plugins-for-writing)
-7. [colorschemes](#colorschemes)
-8. [general vim resources](#general-vim-resources)
-9. [other resources](#other-resources)
-10. [contributing](#contributing)
+1. [why](#why)
+2. [getting started](#getting-started)
+3. [writing with vim](#writing-with-vim)
+4. [a note on markup languages](#a-note-on-markup-languages)
+5. [plugins for writing](#plugins-for-writing)
+6. [colorschemes](#colorschemes)
+7. [general vim resources](#general-vim-resources)
+8. [other resources](#other-resources)
+9. [contributing](#contributing)
 
 ## why
 
@@ -32,7 +28,7 @@ There are many reasons, but the most important/obvious are:
   and the productivity boost that comes with that—essentially they force you to
   focus on the text instead of faffing about with fonts and headings.
 - They use an open, non-proprietary, plain text file format, meaning you can
-  rely on your files being usable fifty years from now[^1].
+  rely on your files being usable fifty years from now.
 - Text editors are faster, lighter, and appear less prone to bugs and/or
   crashes.
 
@@ -50,17 +46,22 @@ shape vim into a productive and personal tool.
 
 ![steep](steep.svg)
 
-The elephant in the room is Vim’s steep learning curve. And yeah there is no getting around that. However, for the purpose of prose that curve is steep but not high, a two or three runs through vimtutor, the first step on the vim highway, and reading some of the links in *general vim*, is enough to start.  Anyway, I recommend at least reading both
-[Coming home to vim](https://stevelosh.com/blog/2010/09/coming-home-to-vim) and 
-[Everyone Who Tried to Convince Me to use Vim was Wrong](https://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/) before deciding in vim is for you.
-
-[^1]: Should the world survive that long. And if not, at least the cockroaches will have something to read on their iPads post-apocalypse
+The elephant in the room is Vim’s steep learning curve. And yeah there is
+no getting around that. However, for the purpose of prose that curve is
+steep but not high, a two or three runs through vimtutor, the first step
+on the vim highway, and reading some of the links in *general vim*, is
+enough to start.
+Anyway, I recommend at least reading both [Coming home
+to vim](https://stevelosh.com/blog/2010/09/coming-home-to-vim) and
+[Everyone Who Tried to Convince Me to use Vim was
+Wrong](https://yehudakatz.com/2010/07/29/everyone-who-tried-to-convince-me-to-use-vim-was-wrong/)
+before deciding in vim is for you.
 
 ## getting started
 
 The below links show vim can be a powerful and flexible editor of prose,
 with near endless configuration options. Perhaps too many options. But you
-don’t need to learn it all at once[^2], especially if your focus is
+don’t need to learn it all at once, especially if your focus is
 writing prose.  Here’s a some simple steps to get started:
 
 Install the GUI version. Either gVim or MacVim. Vim has different
@@ -79,8 +80,6 @@ you download a super minimal vimrc here:
 
 This will set up backspacing and word wrapping to work as you would expect
 in traditional editors.
-
-[^2]: and some options you'll never need to.
 
 ## writing with vim
 
