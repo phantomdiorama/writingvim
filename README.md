@@ -5,7 +5,7 @@ but hopefully useful for others too.
 
 Items with :+1: are recommended.
 
-Items with :eyes: are new
+Items with :eyes: are new (in latest commit)
 
 1. [why](#why)
 2. [getting started](#getting-started)
@@ -88,7 +88,9 @@ section is that I think the link is *interesting* (with the usual
 disclaimer that I do not necessarily endorse the opinions expressed or
 their authors).
 
+- [3 shell scripts: Kill weasel words, avoid the passive, eliminate duplicates](https://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/) - Matt Might :eyes:
 - [Configuring Vim as a Writing Tool](https://news.itsfoss.com/configuring-vim-writing/) - Its FOSS
+- [English Words Completion inside Neovim/Vim](https://jdhao.github.io/2019/04/26/words_completion_nvim/) - jdhao :eyes:
 - [How I'm writing my book using Vim, Git and Ruby](http://blog.chrismdp.com/2010/11/how-im-writing-my-book-using-git-and-ruby/) - Chris Parsons
 - [Real-time LaTeX using Vim/Neovim, VimTeX, and snippets](https://ejmastnak.github.io/tutorials/vim-latex/intro.html) - ejmastnak
 - [The Woodnotes Guide to Vim for Writers](https://therandymon.com/woodnotes/vim-for-writers/vimforwriters.html)
@@ -96,7 +98,7 @@ their authors).
 - [Vim for Writers](https://www.naperwrimo.org/wiki/index.php?title=Vim_for_Writers) - NaperWriMo Wiki
 - [Vim for Writing](https://raivivek.in/2016/09/vim-for-writing/#) - Vivek
 - [WRITING PROSE IN VIM](http://ultralight.cc/posts/71ab285a0c633f47.html) - ultralight
-- [Writing Markdown in Vim](https://codeinthehole.com/tips/writing-markdown-in-vim/) - David Winterbottom :eyes:
+- [Writing Markdown in Vim](https://codeinthehole.com/tips/writing-markdown-in-vim/) - David Winterbottom
 - [Writing a Book with Pandoc, Make, and Vim](https://keleshev.com/my-book-writing-setup/) - Vladimir Keleshev
 - [Writing with Vim](https://jamierubin.net/2019/03/21/writing-with-vim/) - Jamie Todd Rubin
 - [Writing, Editing and World-Building at the speed of thought with Vim](https://www.youtube.com/watch?v=2ORWaIqyj7k) - Theena Kumaragurunathan
@@ -105,9 +107,10 @@ their authors).
 - [using vim to write prose](https://n3wjack.net/2022/02/07/using-vim-to-write-prose/) - n3wjack
 - [writing prose in vim](https://jonathanh.co.uk/blog/writing-prose-in-vim/) - Jonathan Hodgson
 
+
 ## a note on markup languages
 
-While not essential, when writing in plaintext you may want to markup your
+While not essential, when writing in plain text you may want to markup your
 er... text to indicate emphasis and the like. You’ve heard of
 [Markdown](https://daringfireball.net/projects/markdown/) but
 there’s a number of light markup languages to choose from:
@@ -117,8 +120,8 @@ there’s a number of light markup languages to choose from:
 - [Djot](https://djot.net/) is a new attempt at refining Markdown.
 - [Fountain](https://fountain.io/) is a markup language for writing screenplays.
 - [LaTex](https://en.wikipedia.org/wiki/LaTeX) is the grandma of markup languages. Big and intimidating. Used in academia. A little beyond the scope for us.
-- [Typst](https://github.com/typst/typst) Typst is a new markup-based typesetting system that is designed to be “as powerful as LaTeX while being much easier to learn and use” :eyes:
-- [txt2tags](https://txt2tags.org/) super minimal markup language :eyes:
+- [Typst](https://github.com/typst/typst) Typst is a new markup-based typesetting system that is designed to be “as powerful as LaTeX while being much easier to learn and use”
+- [txt2tags](https://txt2tags.org/) super minimal markup language
 - [reStructuredText](https://docutils.sourceforge.io/rst.html) perhaps markdown’s main rival
 
 ## plugins for writing
@@ -128,9 +131,11 @@ make it fit better into your workflow. Check the documentation for options
 you may want to enable, and then check out Vim’s vast plugin ecosystem.
 This second step is optional.
 
+For information on installing plugins see this [video](http://vimcasts.org/episodes/packages/)
+
 - [abolish](https://github.com/tpope/vim-abolish). Fancy find and replace :+1:
 - [ditto](https://github.com/dbmrq/vim-ditto). Stop repeating yourself.
-- [fountain4vim](https://github.com/stevenjaycohen/fountain4vim) is a modern plugin for working with Fountain :eyes:
+- [fountain4vim](https://github.com/stevenjaycohen/fountain4vim) is a modern plugin for working with Fountain
 - [goyo](https://github.com/junegunn/goyo.vim). Distraction-free writing in Vim. Also [limelight](https://github.com/junegunn/limelight.vim) by the same author
 - [gundo](https://github.com/sjl/gundo.vim). Visual undo tree
 - [litecorrect](https://github.com/preservim/vim-litecorrect) is a small autocorrect plugin for the ~400 most common typos
@@ -138,7 +143,7 @@ This second step is optional.
 - [org.vim](https://github.com/axvr/org.vim). Org mode syntax highlighting and folding for Vim
 - [targets.vim](https://github.com/wellle/targets.vim). Vim plugin that provides additional text objects
 - [vim-exchange](https://github.com/tommcdo/vim-exchange). Swap words when they’re in the order wrong. Vimcasts has a [tutorial](http://vimcasts.org/episodes/swapping-two-regions-of-text-with-exchange-vim/) :+1:
-- [vim-fountain ](https://github.com/kblin/vim-fountain) :eyes:
+- [vim-fountain ](https://github.com/kblin/vim-fountain)
 - [vim-lengthy](https://github.com/Raimondi/vim-lengthy). Colorize sentences by word count
 - [vim-lexical](https://github.com/preservim/vim-lexical). Build on Vim’s spell/thes/dict completion
 - [vim-markdown-toc](https://github.com/ajorgensen/vim-markdown-toc). An easy way to generate a table of contents for your markdown file
@@ -158,7 +163,7 @@ This second step is optional.
 
 There are *thousands* of colorschemes  available for vim, but there are
 surprisingly few decent ones for light mode (which I find better for
-writng). Here are some good light themes:
+writing). Here are some good light themes:
 
 - [Lucius](https://github.com/jonathanfilip/vim-lucius)
 - [Pencil](https://github.com/preservim/vim-colors-pencil)
@@ -167,16 +172,18 @@ writng). Here are some good light themes:
 
 ## general vim resources
 
-- [The Documentation](http://vimdoc.sourceforge.net/htmldoc/help.html)
 - [A Vim Cheatsheet](https://learnxinyminutes.com/docs/vim/)
 - [And another one](https://vim.rtorr.com/)
-- [vim galore](https://github.com/mhinz/vim-galore) :eyes:
-- [Learn Vimscript the Hard Way](https://learnvimscriptthehardway.stevelosh.com/) - Steve Losh :+1:
-- [Seven habits of effective text editing](https://www.moolenaar.net/habits.html) - Bram Moolenaar
-- [Practical Vim](https://www.amazon.com/Practical-Vim-Edit-Speed-Thought/dp/1680501275) - Drew Neil :+1:
 - [Idiomatic Vimrc: Advice on writing your own config](https://github.com/romainl/idiomatic-vimrc) - romainl
+- [Learn Vimscript the Hard Way](https://learnvimscriptthehardway.stevelosh.com/) - Steve Losh :+1:
+- [Let Vim do the typing](https://georgebrock.github.io/talks/vim-completion/) :eyes:
 - [My vim config](https://github.com/phantomdiorama/vimfiles). You shouldn’t copy it. Check out the above instead.
+- [Practical Vim](https://www.amazon.com/Practical-Vim-Edit-Speed-Thought/dp/1680501275) - Drew Neil :+1:
 - [Recommendations from #vim](https://www.vi-improved.org/recommendations/)
+- [Seven habits of effective text editing](https://www.moolenaar.net/habits.html) - Bram Moolenaar
+- [The Documentation](http://vimdoc.sourceforge.net/htmldoc/help.html)
+- [Vimcasts](http://vimcasts.org/) - Drew Neil :+1: :eyes:
+- [vim galore](https://github.com/mhinz/vim-galore)/
 
 ## other resources
 
