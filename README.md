@@ -191,6 +191,7 @@ The *if you liked that you'll like this* section:
 
 - [Using Git Version Control as a Writer](https://news.itsfoss.com/version-control-writers/)
 - [Write plain text files](https://sive.rs/plaintext)
+- [Vale: enforcing style guidelines for text](https://lwn.net/Articles/964075/) :eyes:
 
 ## contributing
 
