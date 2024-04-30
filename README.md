@@ -68,8 +68,8 @@ Install the GUI version. Either gVim or MacVim. Vim has different
 shortcuts to other editors, you’ll want the menus as backup when starting
 out.
 
-Bookmark a quality cheat-sheet and the official docs. You The docs can
-access with `:h <topic>` but I find the online copy is easier to browse.
+Bookmark a quality cheat-sheet and the official documentation. You can
+access the docs with `:h <topic>` but I find the online copy is easier to browse.
 Check the links below.
 
 As we have seen, one of the main benefits of vim is its configurability.
@@ -80,6 +80,8 @@ you download a super minimal vimrc here:
 
 This will set up backspacing and word wrapping to work as you would expect
 in traditional editors.
+
+ALSO use the mouse if you want!
 
 ## writing with vim
 
