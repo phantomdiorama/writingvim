@@ -92,7 +92,7 @@ their authors).
 
 - [3 shell scripts: Kill weasel words, avoid the passive, eliminate duplicates](https://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/) - Matt Might :eyes:
 - [Configuring Vim as a Writing Tool](https://news.itsfoss.com/configuring-vim-writing/) - Its FOSS
-- [English Words Completion inside Neovim/Vim](https://jdhao.github.io/2019/04/26/words_completion_nvim/) - jdhao :eyes:
+- [English Words Completion inside Neovim/Vim](https://jdhao.github.io/2019/04/26/words_completion_nvim/) - jdhao
 - [How I'm writing my book using Vim, Git and Ruby](http://blog.chrismdp.com/2010/11/how-im-writing-my-book-using-git-and-ruby/) - Chris Parsons
 - [Real-time LaTeX using Vim/Neovim, VimTeX, and snippets](https://ejmastnak.github.io/tutorials/vim-latex/intro.html) - ejmastnak
 - [The Woodnotes Guide to Vim for Writers](https://therandymon.com/woodnotes/vim-for-writers/vimforwriters.html)
@@ -160,6 +160,7 @@ For information on installing plugins see this [video](http://vimcasts.org/episo
 - [vimwiki](https://github.com/vimwiki/vimwiki). Personal Wiki for Vim
 - [visual-split.vim](https://github.com/wellle/visual-split.vim). Vim plugin to control splits with visual selections or text objects
 - [writegood](https://github.com/davidbeckingsale/writegood.vim). Highlight ‘weasel words’ etc
+- [focus.vim](https://github.com/merlinrebrovic/focus.vim) Make a split temporarily full screen :eyes:
 
 ## colorschemes
 
@@ -171,6 +172,9 @@ writing). Here are some good light themes:
 - [Pencil](https://github.com/preservim/vim-colors-pencil)
 - [Solarized8](https://github.com/lifepillar/vim-solarized8)
 - [Paramount](https://github.com/owickstrom/vim-colors-paramount)
+- [Paige](https://sr.ht/~leon_plickat/Paige/) :eyes:
+- [Bruin](https://git.sr.ht/~romainl/vim-bruin) :eyes:
+- [vim-no-color-collection](https://github.com/mcchrish/vim-no-color-collections) Collection of Vim themes with barely any colors :eyes:
 
 ## general vim resources
 
@@ -178,13 +182,13 @@ writing). Here are some good light themes:
 - [And another one](https://vim.rtorr.com/)
 - [Idiomatic Vimrc: Advice on writing your own config](https://github.com/romainl/idiomatic-vimrc) - romainl
 - [Learn Vimscript the Hard Way](https://learnvimscriptthehardway.stevelosh.com/) - Steve Losh :+1:
-- [Let Vim do the typing](https://georgebrock.github.io/talks/vim-completion/) :eyes:
+- [Let Vim do the typing](https://georgebrock.github.io/talks/vim-completion/)
 - [My vim config](https://github.com/phantomdiorama/vimfiles). You shouldn’t copy it. Check out the above instead.
 - [Practical Vim](https://www.amazon.com/Practical-Vim-Edit-Speed-Thought/dp/1680501275) - Drew Neil :+1:
 - [Recommendations from #vim](https://www.vi-improved.org/recommendations/)
 - [Seven habits of effective text editing](https://www.moolenaar.net/habits.html) - Bram Moolenaar
 - [The Documentation](http://vimdoc.sourceforge.net/htmldoc/help.html)
-- [Vimcasts](http://vimcasts.org/) - Drew Neil :+1: :eyes:
+- [Vimcasts](http://vimcasts.org/) - Drew Neil :+1:
 - [vim galore](https://github.com/mhinz/vim-galore)/
 
 ## other resources
@@ -193,7 +197,7 @@ The *if you liked that you'll like this* section:
 
 - [Using Git Version Control as a Writer](https://news.itsfoss.com/version-control-writers/)
 - [Write plain text files](https://sive.rs/plaintext)
-- [Vale: enforcing style guidelines for text](https://lwn.net/Articles/964075/) :eyes:
+- [Vale: enforcing style guidelines for text](https://lwn.net/Articles/964075/)
 
 ## contributing
 
