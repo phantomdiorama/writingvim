@@ -137,7 +137,7 @@ For information on installing plugins see this [video](http://vimcasts.org/episo
 
 - [abolish](https://github.com/tpope/vim-abolish). Fancy find and replace :+1:
 - [ditto](https://github.com/dbmrq/vim-ditto). Stop repeating yourself.
-- [fountain4vim](https://github.com/stevenjaycohen/fountain4vim) is a modern plugin for working with Fountain
+- [fountain4vim](https://github.com/stevenjaycohen/fountain4vim) is a modern plugin for working with Fountain markup 
 - [goyo](https://github.com/junegunn/goyo.vim). Distraction-free writing in Vim. Also [limelight](https://github.com/junegunn/limelight.vim) by the same author
 - [gundo](https://github.com/sjl/gundo.vim). Visual undo tree
 - [litecorrect](https://github.com/preservim/vim-litecorrect) is a small autocorrect plugin for the ~400 most common typos
@@ -145,7 +145,7 @@ For information on installing plugins see this [video](http://vimcasts.org/episo
 - [org.vim](https://github.com/axvr/org.vim). Org mode syntax highlighting and folding for Vim
 - [targets.vim](https://github.com/wellle/targets.vim). Vim plugin that provides additional text objects
 - [vim-exchange](https://github.com/tommcdo/vim-exchange). Swap words when they’re in the order wrong. Vimcasts has a [tutorial](http://vimcasts.org/episodes/swapping-two-regions-of-text-with-exchange-vim/) :+1:
-- [vim-fountain ](https://github.com/kblin/vim-fountain)
+- [vim-fountain ](https://github.com/kblin/vim-fountain) Plug-in for writing screenplays in Fountain markup (disclosure: I have contributed to this)
 - [vim-lengthy](https://github.com/Raimondi/vim-lengthy). Colorize sentences by word count
 - [vim-lexical](https://github.com/preservim/vim-lexical). Build on Vim’s spell/thes/dict completion
 - [vim-markdown-toc](https://github.com/ajorgensen/vim-markdown-toc). An easy way to generate a table of contents for your markdown file
