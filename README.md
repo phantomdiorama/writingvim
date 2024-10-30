@@ -108,6 +108,7 @@ their authors).
 - [take notes using LaTeX and Vim](https://castel.dev/post/lecture-notes-1) - Gilles Castel
 - [using vim to write prose](https://n3wjack.net/2022/02/07/using-vim-to-write-prose/) - n3wjack
 - [writing prose in vim](https://jonathanh.co.uk/blog/writing-prose-in-vim/) - Jonathan Hodgson
+- [Self-publishing a book with reStructuredText, Sphinx, Calibre, and vim](https://digitalsuperpowers.com/blog/2019-02-16-publishing-ebook.html) Nick Touran :eyes:
 
 
 ## a note on markup languages
@@ -160,7 +161,7 @@ For information on installing plugins see this [video](http://vimcasts.org/episo
 - [vimwiki](https://github.com/vimwiki/vimwiki). Personal Wiki for Vim
 - [visual-split.vim](https://github.com/wellle/visual-split.vim). Vim plugin to control splits with visual selections or text objects
 - [writegood](https://github.com/davidbeckingsale/writegood.vim). Highlight ‘weasel words’ etc
-- [focus.vim](https://github.com/merlinrebrovic/focus.vim) Make a split temporarily full screen :eyes:
+- [focus.vim](https://github.com/merlinrebrovic/focus.vim) Make a split temporarily full screen
 
 ## colorschemes
 
@@ -172,8 +173,8 @@ writing). Here are some good light themes:
 - [Pencil](https://github.com/preservim/vim-colors-pencil)
 - [Solarized8](https://github.com/lifepillar/vim-solarized8)
 - [Paramount](https://github.com/owickstrom/vim-colors-paramount)
-- [Paige](https://sr.ht/~leon_plickat/Paige/) :eyes:
-- [Bruin](https://git.sr.ht/~romainl/vim-bruin) :eyes:
+- [Paige](https://sr.ht/~leon_plickat/Paige/)
+- [Bruin](https://git.sr.ht/~romainl/vim-bruin)
 - [vim-no-color-collection](https://github.com/mcchrish/vim-no-color-collections) Collection of Vim themes with barely any colors :eyes:
 
 ## general vim resources
@@ -189,7 +190,7 @@ writing). Here are some good light themes:
 - [Seven habits of effective text editing](https://www.moolenaar.net/habits.html) - Bram Moolenaar
 - [The Documentation](http://vimdoc.sourceforge.net/htmldoc/help.html)
 - [Vimcasts](http://vimcasts.org/) - Drew Neil :+1:
-- [vim galore](https://github.com/mhinz/vim-galore)/
+- [vim galore](https://github.com/mhinz/vim-galore)
 
 ## other resources
 
@@ -198,6 +199,7 @@ The *if you liked that you'll like this* section:
 - [Using Git Version Control as a Writer](https://news.itsfoss.com/version-control-writers/)
 - [Write plain text files](https://sive.rs/plaintext)
 - [Vale: enforcing style guidelines for text](https://lwn.net/Articles/964075/)
+- [Improve your writing with the GNU style checkers](https://www.linux.com/news/improve-your-writing-gnu-style-checkers/) :eyes:
 
 ## contributing
 
