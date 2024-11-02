@@ -200,6 +200,7 @@ The *if you liked that you'll like this* section:
 - [Write plain text files](https://sive.rs/plaintext)
 - [Vale: enforcing style guidelines for text](https://lwn.net/Articles/964075/)
 - [Improve your writing with the GNU style checkers](https://www.linux.com/news/improve-your-writing-gnu-style-checkers/) :eyes:
+- [Exploring Typst, a new typesetting system similar to LaTeX](https://blog.jreyesr.com/posts/typst/) :eyes:
 
 ## contributing
 
