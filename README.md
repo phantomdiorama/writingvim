@@ -175,7 +175,8 @@ writing). Here are some good light themes:
 - [Paramount](https://github.com/owickstrom/vim-colors-paramount)
 - [Paige](https://sr.ht/~leon_plickat/Paige/)
 - [Bruin](https://git.sr.ht/~romainl/vim-bruin)
-- [vim-no-color-collection](https://github.com/mcchrish/vim-no-color-collections) Collection of Vim themes with barely any colors :eyes:
+- [vim-paper](https://github.com/yorickpeterse/vim-paper) :eyes:
+- [vim-no-color-collection](https://github.com/mcchrish/vim-no-color-collections) Collection of Vim themes with barely any colors
 
 ## general vim resources
 
