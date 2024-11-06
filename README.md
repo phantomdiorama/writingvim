@@ -3,9 +3,8 @@
 An awesome-ish list of vim for writers. Geared towards beginners,
 but hopefully useful for others too.
 
-Items with :+1: are recommended.
-
-Items with :eyes: are new (in latest commit)
+- :+1   = recommended.
+- :eyes = new
 
 1. [why](#why)
 2. [getting started](#getting-started)
@@ -22,7 +21,7 @@ Items with :eyes: are new (in latest commit)
 **So... why use a text editor for writing over a word processor like
 Microsoft Word, Apple Pages or Google Docs?**
 
-There are many reasons, but the most important/obvious are:
+Well, many reasons, but the most important/obvious are:
 
 - The separation of [text and styling](https://en.m.wikipedia.org/wiki/Separation_of_content_and_presentation)
   and the productivity boost that comes with that—essentially they force you to
@@ -35,7 +34,7 @@ There are many reasons, but the most important/obvious are:
 **You could say the same thing about Notepad, why use vim?**
 
 Yes, and if you want to use Notepad or TextEdit or the like, you should.
-Whatever is most comfortable for you. In the case of vim, the positives of
+Whatever is most comfortable for you. But with vim, the positives of
 plain text files also apply to the editor itself. It’s reliable, tested,
 lightweight and cross platform—it’s available across all operating systems
 including iOS and Android—and your can use the same config across all your
@@ -47,7 +46,7 @@ shape vim into a productive and personal tool.
 ![steep](steep.svg)
 
 The elephant in the room is Vim’s steep learning curve. And yeah there is
-no getting around that. However, for the purpose of prose that curve is
+no getting around that. But for prose that curve is
 steep but not high, a two or three runs through vimtutor, the first step
 on the vim highway, and reading some of the links in *general vim*, is
 enough to start.
@@ -73,8 +72,8 @@ access the docs with `:h <topic>` but I find the online copy is easier to browse
 Check the links below.
 
 As we have seen, one of the main benefits of vim is its configurability.
-However, for prose, there’s only a few settings you need. For convenience
-you download a super minimal vimrc here:
+But again, for prose, there’s only a few settings you need. For convenience
+you can download a super minimal vimrc here:
 
 [minimal vimrc for writing](writing.vimrc)
 
@@ -90,7 +89,7 @@ section is that I think the link is *interesting* (with the usual
 disclaimer that I do not necessarily endorse the opinions expressed or
 their authors).
 
-- [3 shell scripts: Kill weasel words, avoid the passive, eliminate duplicates](https://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/) - Matt Might :eyes:
+- [3 shell scripts: Kill weasel words, avoid the passive, remove duplicates](https://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/) - Matt Might :eyes:
 - [Configuring Vim as a Writing Tool](https://news.itsfoss.com/configuring-vim-writing/) - Its FOSS
 - [English Words Completion inside Neovim/Vim](https://jdhao.github.io/2019/04/26/words_completion_nvim/) - jdhao
 - [How I'm writing my book using Vim, Git and Ruby](http://blog.chrismdp.com/2010/11/how-im-writing-my-book-using-git-and-ruby/) - Chris Parsons
@@ -114,24 +113,24 @@ their authors).
 ## a note on markup languages
 
 While not essential, when writing in plain text you may want to markup your
-er... text to indicate emphasis and the like. You’ve heard of
+er... text to show emphasis and the like. You’ve heard of
 [Markdown](https://daringfireball.net/projects/markdown/) but
-there’s a number of light markup languages to choose from:
+there’s many markup languages to choose from:
 
 - [AsciiDoc](https://asciidoc.org/) is both older and a bit more complex than Markdown. It does have some nice features of its own.
-- [Commonmark](https://commonmark.org/). There are so many flavours of Markdown. To avoid confusion I suggest just using this.
+- [Commonmark](https://commonmark.org/). With so many flavours of Markdown, I suggest using commonmark to avoid confusion.
 - [Djot](https://djot.net/) is a new attempt at refining Markdown.
 - [Fountain](https://fountain.io/) is a markup language for writing screenplays.
 - [LaTex](https://en.wikipedia.org/wiki/LaTeX) is the grandma of markup languages. Big and intimidating. Used in academia. A little beyond the scope for us.
-- [Typst](https://github.com/typst/typst) Typst is a new markup-based typesetting system that is designed to be “as powerful as LaTeX while being much easier to learn and use”
+- [Typst](https://github.com/typst/typst) Typst is a new markup-based typesetting system designed to be “as powerful as LaTeX while being much easier to learn and use”
 - [txt2tags](https://txt2tags.org/) super minimal markup language
 - [reStructuredText](https://docutils.sourceforge.io/rst.html) perhaps markdown’s main rival
 
 ## plugins for writing
 
-Vanilla Vim is more than capable. However, you may want to customise it to
+Vanilla Vim is more than capable. You can, of course, to customise it to
 make it fit better into your workflow. Check the documentation for options
-you may want to enable, and then check out Vim’s vast plugin ecosystem.
+you may want to enable, and then check out Vim’s plugin ecosystem.
 This second step is optional.
 
 For information on installing plugins see this [video](http://vimcasts.org/episodes/packages/)
@@ -144,7 +143,7 @@ For information on installing plugins see this [video](http://vimcasts.org/episo
 - [litecorrect](https://github.com/preservim/vim-litecorrect) is a small autocorrect plugin for the ~400 most common typos
 - [nrrwrgn](https://github.com/chrisbra/NrrwRgn). Focus on small region of text
 - [org.vim](https://github.com/axvr/org.vim). Org mode syntax highlighting and folding for Vim
-- [targets.vim](https://github.com/wellle/targets.vim). Vim plugin that provides additional text objects
+- [targets.vim](https://github.com/wellle/targets.vim). Vim plugin that provides extra text objects
 - [vim-exchange](https://github.com/tommcdo/vim-exchange). Swap words when they’re in the order wrong. Vimcasts has a [tutorial](http://vimcasts.org/episodes/swapping-two-regions-of-text-with-exchange-vim/) :+1:
 - [vim-fountain ](https://github.com/kblin/vim-fountain) Plug-in for writing screenplays in Fountain markup (disclosure: I have contributed to this)
 - [vim-lengthy](https://github.com/Raimondi/vim-lengthy). Colorize sentences by word count
@@ -165,8 +164,8 @@ For information on installing plugins see this [video](http://vimcasts.org/episo
 
 ## colorschemes
 
-There are *thousands* of colorschemes  available for vim, but there are
-surprisingly few decent ones for light mode (which I find better for
+Thousands of colorschemes are available for vim, but
+most are for dark mode (which I find less suited for long-form
 writing). Here are some good light themes:
 
 - [Lucius](https://github.com/jonathanfilip/vim-lucius)
@@ -201,7 +200,7 @@ The *if you liked that you'll like this* section:
 - [Write plain text files](https://sive.rs/plaintext)
 - [Vale: enforcing style guidelines for text](https://lwn.net/Articles/964075/)
 - [Improve your writing with the GNU style checkers](https://www.linux.com/news/improve-your-writing-gnu-style-checkers/) :eyes:
-- [Exploring Typst, a new typesetting system similar to LaTeX](https://blog.jreyesr.com/posts/typst/) :eyes:
+- [Exploring Typst, a new typesetting system](https://blog.jreyesr.com/posts/typst/) :eyes:
 
 ## contributing
 
