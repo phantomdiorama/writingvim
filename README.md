@@ -3,9 +3,6 @@
 An awesome-ish list of vim for writers. Geared towards beginners,
 but hopefully useful for others too.
 
-- :+1   = recommended.
-- :eyes = new
-
 1. [why](#why)
 2. [getting started](#getting-started)
 3. [writing with vim](#writing-with-vim)
@@ -15,6 +12,10 @@ but hopefully useful for others too.
 7. [general vim resources](#general-vim-resources)
 8. [other resources](#other-resources)
 9. [contributing](#contributing)
+
+**Note:**  
+- :+1: excellent
+- :eyes: new 
 
 ## why
 
