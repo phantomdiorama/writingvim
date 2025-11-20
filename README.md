@@ -85,7 +85,7 @@ ALSO use the mouse if you want!
 
 ## writing with vim
 
-Here is collection of links on using vim for prose. The criteria for this
+Here is a collection of links about using vim for prose. The criteria for this
 section is that I think the link is *interesting* (with the usual
 disclaimer that I do not necessarily endorse the opinions expressed or
 their authors).
@@ -129,7 +129,7 @@ there’s many markup languages to choose from:
 
 ## plugins for writing
 
-Vanilla Vim is more than capable. You can, of course, to customise it to
+Vanilla Vim is more than capable. However, you may wish to customise it to
 make it fit better into your workflow. Check the documentation for options
 you may want to enable, and then check out Vim’s plugin ecosystem.
 This second step is optional.
